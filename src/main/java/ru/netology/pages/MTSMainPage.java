@@ -55,6 +55,7 @@ public class MTSMainPage {
     }
 
     public WebElement getCookieButton() {
+        wait.until(ExpectedConditions.elementToBeClickable(cookieButton));
         return cookieButton;
     }
 
